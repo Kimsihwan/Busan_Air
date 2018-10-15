@@ -12,6 +12,7 @@
 		141DAB75217427EC00BC912F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141DAB73217427EC00BC912F /* Main.storyboard */; };
 		141DAB77217427F200BC912F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141DAB76217427F200BC912F /* Assets.xcassets */; };
 		141DAB7A217427F200BC912F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141DAB78217427F200BC912F /* LaunchScreen.storyboard */; };
+		141DAB8221742A2F00BC912F /* AirData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141DAB8121742A2F00BC912F /* AirData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		141DAB76217427F200BC912F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		141DAB79217427F200BC912F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		141DAB7B217427F200BC912F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141DAB8121742A2F00BC912F /* AirData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				141DAB76217427F200BC912F /* Assets.xcassets */,
 				141DAB78217427F200BC912F /* LaunchScreen.storyboard */,
 				141DAB7B217427F200BC912F /* Info.plist */,
+				141DAB8121742A2F00BC912F /* AirData.swift */,
 			);
 			path = Busan_Air;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				141DAB72217427EC00BC912F /* ViewController.swift in Sources */,
 				141DAB70217427EC00BC912F /* AppDelegate.swift in Sources */,
+				141DAB8221742A2F00BC912F /* AirData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
