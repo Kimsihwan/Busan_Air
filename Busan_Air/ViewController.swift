@@ -28,6 +28,7 @@ class ViewController: UIViewController, XMLParserDelegate, UITableViewDelegate, 
         myTable.dataSource = self
         
         Timer.scheduledTimer(timeInterval: 3600, target: self, selector: #selector(ViewController.myParse), userInfo: nil, repeats: true)
+        myParse()
     }
     
     @objc func myParse() {
